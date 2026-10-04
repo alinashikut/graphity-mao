@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+// GitHub Pages serves the site from /graphity-mao/; local dev stays at /
+export default defineConfig(({ command, isPreview }) => ({
   plugins: [react()],
-  base: '/',
+  base: command === 'build' || isPreview ? '/graphity-mao/' : '/',
   server: {
     port: 5173,
     host: 'localhost',
@@ -13,4 +14,4 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
   }
-})
+}))

@@ -8,3 +8,4 @@ dist/
 .tokens.json
 service-account-key.json
 client_secret_*.json
+.vite/
