@@ -1,0 +1,85 @@
+{
+  "cities": [
+    {
+      "id": "kathmandu",
+      "city": "Kathmandu",
+      "country": "Nepal",
+      "lat": 27.6761,
+      "lng": 85.3242,
+      "artworks": [
+        {
+          "id": "1Uno6n4UYK3qQODKj6gsJsznZ34yUrmOa",
+          "fileName": "IMG_0923.HEIC",
+          "lat": 27.6761,
+          "lng": 85.3242,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T13:49:14.701Z"
+        },
+        {
+          "id": "1tmWuMHLwtllwMsldVhjoENPz0UtWKiRn",
+          "fileName": "IMG_0922.HEIC",
+          "lat": 27.6761,
+          "lng": 85.3242,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T13:49:14.701Z"
+        },
+        {
+          "id": "1gVLURazK5UeJaGVcQmDIINX-GaBOPneI",
+          "fileName": "IMG_1258.HEIC",
+          "lat": 27.7139,
+          "lng": 85.3124,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T13:49:14.701Z"
+        },
+        {
+          "id": "1w_na6JraBbfwIjoG8JZC0_qH0wHI1-AS",
+          "fileName": "IMG_0927.HEIC",
+          "lat": 27.6765,
+          "lng": 85.3244,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T13:49:14.701Z"
+        },
+        {
+          "id": "17FGlOJuVbYKWbqye38QqNkKEVtDS2feD",
+          "fileName": "IMG_1260.HEIC",
+          "lat": 27.717,
+          "lng": 85.3131,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T13:49:14.701Z"
+        }
+      ]
+    },
+    {
+      "id": "bangkok",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "lat": 13.7271,
+      "lng": 100.5912,
+      "artworks": [
+        {
+          "id": "1-QfxwA5qqrj4CX-SXyKiJAcTZ_zEOdJi",
+          "fileName": "IMG_0400.HEIC",
+          "lat": 13.7271,
+          "lng": 100.5912,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T13:49:14.701Z"
+        },
+        {
+          "id": "1h1rwkRPIYjrIAu0ZZcSiAg8Ea6bN9kBc",
+          "fileName": "IMG_0442.HEIC",
+          "lat": 12.928,
+          "lng": 100.7874,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T13:49:14.701Z"
+        }
+      ]
+    }
+  ]
+}
