@@ -1,93 +1,56 @@
-# 🎨 Shikut Street Art Map
+# Graphity Mao 🎨
 
-Browse the world's street art — an interactive map of graffiti and street art from travels around the world.
+Интерактивная карта граффити и стрит-арта из путешествий по миру.
 
-**Live preview:** Click a marker to see the exact location on Google Maps!
+## 🚀 Как открыть карту
 
-## 🚀 Quick Start
+### Локально (сейчас):
+```
+http://localhost:5173
+```
 
-### 1. Setup Google API (5 minutes)
+Карта уже запущена! Просто открой браузер и перейди по ссылке выше.
 
-Follow the guide: **[SETUP_GOOGLE_API.md](SETUP_GOOGLE_API.md)**
+### На GitHub Pages (когда развернемся):
+Будет доступна по ссылке вроде: `https://username.github.io/graphity-mao`
 
-TL;DR:
-- Create a Google Cloud project
-- Enable Google Drive API
-- Create OAuth 2.0 credentials
-- Add credentials to `.env` file
+## 📸 Что там:
 
-### 2. Install & Run
+- **Интерактивная карта** Leaflet
+- **Фото со своего Google Drive** автоматически импортируются
+- **Красные точки** на карте - города с граффити
+- **Клик на точку** - видишь все фото из этого города
+- **Зум +/−** - приближение/отдаление
+
+## 🛠 Технология
+
+- React + Vite (фронтенд)
+- Express.js (бэкэнд для OAuth)
+- Leaflet.js (интерактивная карта)
+- Google Drive API (импорт фото)
+
+## 📁 Города в карте:
+
+- 🇳🇵 **Катманду** - 5 фото
+- 🇹🇭 **Бангкок** - 2 фото
+
+## 🔧 Для разработчиков
 
 ```bash
-# Install dependencies
+# Установка
 npm install
 
-# Start both frontend and backend
-npm run dev
-```
+# Запуск локально
+npm run dev        # фронтенд на 5173
+npm run server     # бэкэнд на 3001
 
-- Frontend: http://localhost:5173
-- Backend: http://localhost:3001
-
-### 3. Import Your Photos
-
-1. Click **"Sign in with Google"**
-2. Authorize the app
-3. Click **"Import from Google Drive"**
-4. The app will:
-   - Find your "Street Art Map" folder
-   - Extract GPS coordinates from photos
-   - Display them on the map
-
-## 📁 Project Structure
-
-```
-├── src/
-│   ├── components/           # React components
-│   │   ├── Map.jsx          # Leaflet map
-│   │   ├── GoogleAuth.jsx   # Google login
-│   │   └── ImportPanel.jsx  # Import controls
-│   ├── App.jsx              # Main app
-│   ├── App.css              # Styles
-│   └── index.jsx            # React entry point
-├── server/
-│   └── index.js             # Express server + Google API
-├── index.html               # HTML template
-├── package.json
-├── vite.config.js           # Vite config
-└── SETUP_GOOGLE_API.md      # Google API setup guide
-```
-
-## 🔑 How It Works
-
-1. **Google OAuth**: Sign in once to authorize access to Google Drive
-2. **File Discovery**: Server finds "Street Art Map" folder and lists photos
-3. **EXIF Extraction**: Extracts GPS coordinates from each photo's metadata
-4. **Map Visualization**: Displays markers on interactive Leaflet map
-5. **Google Maps Link**: Each marker links to Google Maps for navigation
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React + Leaflet (interactive map)
-- **Backend**: Node.js + Express
-- **APIs**: Google Drive API + Google Photos Library API
-- **Build**: Vite
-- **Map**: OpenStreetMap tiles
-
-## 📝 Adding Photos
-
-Just add photos to your "Street Art Map" Google Drive folder with GPS metadata (taken from phone camera), then click "Import" in the app.
-
-## 🚢 Deployment
-
-To deploy to production:
-
-```bash
+# Сборка для GitHub Pages
 npm run build
+
+# Импорт новых фото с Google Drive
+node import-all-photos.js
 ```
 
-This creates optimized files in `dist/` folder.
+## 🔐 Конфиденциальность
 
----
-
-Made with ❤️ for street art lovers
+Твои Google Drive credentials хранятся локально в `.tokens.json` - не закрывай это в GitHub!
