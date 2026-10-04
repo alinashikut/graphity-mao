@@ -39,23 +39,38 @@ function Map({ cities }) {
     cities.forEach((city) => {
       if (city.artworks && city.artworks.length > 0) {
         const marker = L.circleMarker([city.lat, city.lng], {
-          radius: 12,
+          radius: 15,
           fillColor: '#ff6b6b',
           color: '#fff',
-          weight: 2,
+          weight: 3,
           opacity: 1,
-          fillOpacity: 0.8
-        })
-          .bindPopup(`
-            <div class="city-popup">
-              <h3>📍 ${city.city}</h3>
-              <p><strong>${city.country}</strong></p>
-              <p><strong>${city.artworks.length}</strong> street art photos</p>
-              <ul style="max-height: 200px; overflow-y: auto;">
-                ${city.artworks.map(art => `<li>${art.fileName}</li>`).join('')}
-              </ul>
+          fillOpacity: 0.85
+        });
+
+        // Create popup with photo thumbnails
+        const photoGrid = city.artworks
+          .slice(0, 12)
+          .map(art => `
+            <div style="width: 80px; height: 80px; margin: 5px; display: inline-block; overflow: hidden; border-radius: 4px;">
+              <img src="${art.thumbnail || `https://lh3.googleusercontent.com/d/${art.id}=w100`}"
+                   style="width: 100%; height: 100%; object-fit: cover;"
+                   alt="${art.fileName}" />
             </div>
-          `)
+          `).join('');
+
+        const popupContent = `
+          <div class="city-popup">
+            <h3>📍 ${city.city}</h3>
+            <p><strong>${city.country}</strong></p>
+            <p><strong>${city.artworks.length}</strong> street art photos</p>
+            <div style="max-height: 400px; overflow-y: auto; text-align: center;">
+              ${photoGrid}
+              ${city.artworks.length > 12 ? `<p style="font-size: 12px; color: #666;">+${city.artworks.length - 12} more photos</p>` : ''}
+            </div>
+          </div>
+        `;
+
+        marker.bindPopup(popupContent, { maxWidth: 400, maxHeight: 500 })
           .addTo(map.current);
 
         markersRef.current.push(marker);
@@ -64,8 +79,15 @@ function Map({ cities }) {
 
     // Fit bounds if there are markers
     if (markersRef.current.length > 0) {
-      const group = new L.featureGroup(markersRef.current);
-      map.current.fitBounds(group.getBounds(), { padding: [50, 50] });
+      try {
+        const group = new L.featureGroup(markersRef.current);
+        const bounds = group.getBounds();
+        if (bounds.isValid()) {
+          map.current.fitBounds(bounds, { padding: [50, 50], maxZoom: 10 });
+        }
+      } catch (err) {
+        console.warn('Error fitting bounds:', err);
+      }
     }
 
   }, [cities]);

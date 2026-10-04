@@ -14,7 +14,7 @@
           "lng": 85.3242,
           "source": "google_drive",
           "approved": true,
-          "addedAt": "2026-10-04T13:49:14.701Z"
+          "addedAt": "2026-10-04T16:47:06.135Z"
         },
         {
           "id": "1tmWuMHLwtllwMsldVhjoENPz0UtWKiRn",
@@ -23,7 +23,7 @@
           "lng": 85.3242,
           "source": "google_drive",
           "approved": true,
-          "addedAt": "2026-10-04T13:49:14.701Z"
+          "addedAt": "2026-10-04T16:47:06.135Z"
         },
         {
           "id": "1gVLURazK5UeJaGVcQmDIINX-GaBOPneI",
@@ -32,7 +32,7 @@
           "lng": 85.3124,
           "source": "google_drive",
           "approved": true,
-          "addedAt": "2026-10-04T13:49:14.701Z"
+          "addedAt": "2026-10-04T16:47:06.135Z"
         },
         {
           "id": "1w_na6JraBbfwIjoG8JZC0_qH0wHI1-AS",
@@ -41,7 +41,7 @@
           "lng": 85.3244,
           "source": "google_drive",
           "approved": true,
-          "addedAt": "2026-10-04T13:49:14.701Z"
+          "addedAt": "2026-10-04T16:47:06.135Z"
         },
         {
           "id": "17FGlOJuVbYKWbqye38QqNkKEVtDS2feD",
@@ -50,7 +50,565 @@
           "lng": 85.3131,
           "source": "google_drive",
           "approved": true,
-          "addedAt": "2026-10-04T13:49:14.701Z"
+          "addedAt": "2026-10-04T16:47:06.135Z"
+        },
+        {
+          "id": "1u0FjkmvNNyNoZO-H-Bef8edvaavljkY7",
+          "fileName": "IMG_7075.HEIC",
+          "lat": 27.6746,
+          "lng": 85.342,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1fpaMathCmxkLp24gG58Ulq002lGwC3mc",
+          "fileName": "IMG_6857.HEIC",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1s5WugbvMqzKwFbqPZnA7JYMoHZFYytYL",
+          "fileName": "IMG_6855.HEIC",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1fo-OgEeL-2A4wElD_kqu525BwO7kmQKt",
+          "fileName": "IMG_6856.HEIC",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1hF8L-JdtKC3il4PTKHXo76f8OoWupayT",
+          "fileName": "IMG_6797.HEIC",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1ZTJ4WSKB0Gk6FwGyCXy1wcjRuma1ehTd",
+          "fileName": "IMG_6796.HEIC",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1hLeVxleM9P9vUJPZVYWHDRxiTmQYt5Zm",
+          "fileName": "IMG_6795.HEIC",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1iAiyXAVlv6SLG67OsH7L5OyLX9TbM5Y7",
+          "fileName": "IMG_6793.HEIC",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "15IrFvAraQQv63GGaO9Mu2v6r8L9exjiu",
+          "fileName": "IMG_6792.heic",
+          "lat": 27.5474,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1LyxEb1i5qjqp4Lanv_QsojunvDWXbj7p",
+          "fileName": "IMG_6854.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1Sj5fW1VHRzt7HgaxGEVq7pi_kwS-ktaM",
+          "fileName": "IMG_6801.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "19PJILI3ENGQomaP_mluXm5hj99TVgevT",
+          "fileName": "IMG_6799.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1hl1RpJvKNNScFakgnn3TrPS4qw3gT1gD",
+          "fileName": "IMG_6802.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1KWFzXMfyPd-ibhmNGGFIIhMQJbr0Vwhg",
+          "fileName": "IMG_6800.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1oFIxcjMGod1B0hOqK9e5y8yiqs-3JERp",
+          "fileName": "IMG_6798.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1ypWjbwCxXCpdZR89waJwIcDQ6_aSicsR",
+          "fileName": "IMG_6853.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3634,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1WDbbRb7xbJ3d6r3BJA2GSx-b1ZPtsJCv",
+          "fileName": "IMG_6842.HEIC",
+          "lat": 27.5538,
+          "lng": 85.3601,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "107RGMhsjDxE6NJe8_KGPLedVwABX1V_Z",
+          "fileName": "IMG_6841.HEIC",
+          "lat": 27.5538,
+          "lng": 85.3601,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1UyyGuDg071C2cp0uy_JtTXNd6gS30Uau",
+          "fileName": "IMG_6845.HEIC",
+          "lat": 27.547,
+          "lng": 85.3634,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1sOIfv4VyrKWUbtHT_TZf_bKWKT29AvzR",
+          "fileName": "IMG_6844.HEIC",
+          "lat": 27.5469,
+          "lng": 85.3633,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1LuAEc9rsIukgx4gOCyQpGUSlYEYzi2Z_",
+          "fileName": "IMG_6843.HEIC",
+          "lat": 27.5467,
+          "lng": 85.3632,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1uLS2vscb-HcJNKBEogY21MOTXRQqiSVM",
+          "fileName": "IMG_6837.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3637,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1XObW2Sg8jS56hq8RAqrTxvcDZrp6i9tZ",
+          "fileName": "IMG_6835.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3637,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1zXPkKrDlhtEQdzZGi1Go1gY1Kgom3Cgy",
+          "fileName": "IMG_6836.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3637,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1C3HyRaIBU9Fu-Ag41Zhe_TomyyAy_JrP",
+          "fileName": "IMG_6828.HEIC",
+          "lat": 27.5473,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1JuxiT5vvjRCUrw2Enxsbk9B4st1GcoFk",
+          "fileName": "IMG_6827.HEIC",
+          "lat": 27.5473,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1a4DC2KF0s9ySbghS5FFcH6WIqw-ULIWB",
+          "fileName": "IMG_6823.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1T1ePIcxazyW0pTqTUNB9VZv-ydGG2oWF",
+          "fileName": "IMG_6822.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1OtB69t3XAdBYU7deshO0UOPcRyTjcJaV",
+          "fileName": "IMG_6821.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1UY_ivaW1VxuR673QAWGrm95qglAFMSFx",
+          "fileName": "IMG_6820.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1gsTbo_lwVHFiEJ50xquCF7gG0aWWZh0x",
+          "fileName": "IMG_6819.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1fu_BvzrzCVVJnaBEVF3OisHWZ2cpY34T",
+          "fileName": "IMG_6818.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1ElAakU_VhMbeB-lclFfjxHzTXRN5D2V_",
+          "fileName": "IMG_6814.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1WyHdRu42iKpGuD-SUAqRgMPypG6F6u87",
+          "fileName": "IMG_6817.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1X348Obt1YMLj3HIaU10TSGHxxfIUk1jD",
+          "fileName": "IMG_6815.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1Bg2yE3cFyQWljIQMlWBo_umhJzUi8e1e",
+          "fileName": "IMG_6816.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1-zarxz6-wtWeeUM5QZ43vsYglLLleYRP",
+          "fileName": "IMG_6812.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1G39iCx0R2iWo2YcJQ0cPZZY2j6s9W3U0",
+          "fileName": "IMG_6813.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1vW3ywqbMu0Zt5igpMQ4H3SgXUglKIS5Q",
+          "fileName": "IMG_6811.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1OXSRL4sNxvjf6z10wD5uJBYBVAniQUAB",
+          "fileName": "IMG_6810.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1QxYRaTvFwnHT6B7wJGIqH8QCigc6T6Ik",
+          "fileName": "IMG_6809.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1C-5bKz3qtJqfyh1cMR_RUilFfZNO5Zfz",
+          "fileName": "IMG_6808.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1oAvuAP-4F9khw-ILihWQGQ0OYlcJUmwm",
+          "fileName": "IMG_6807.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1AzfRloAfeB_IImWQuPuk3ZW3Wa8bCVOz",
+          "fileName": "IMG_6806.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1B0Y1j8YQBuWmIgTI0NGKro1ldndVfxtE",
+          "fileName": "IMG_6805.HEIC",
+          "lat": 27.5592,
+          "lng": 85.3443,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1tPleeKo6uyQszeKnY6xFuR8sPc29ONzV",
+          "fileName": "IMG_6826.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1XWutnefvhHYXO9ulfY65bClxVBUVbOkC",
+          "fileName": "IMG_6781.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1cPxgVtEkqOitSH5CgaMiskgTowD9eeDR",
+          "fileName": "IMG_6824.HEIC",
+          "lat": 27.548,
+          "lng": 85.3637,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1qKJ-_X1q0BYRoBIzW44QHipDR-hb-Jnd",
+          "fileName": "IMG_6825.HEIC",
+          "lat": 27.5477,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "16S9ncTPIvVwysKPR-Af4-WtMatmJ4Sy0",
+          "fileName": "IMG_6794.heic",
+          "lat": 27.5472,
+          "lng": 85.3636,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "12XVLeoeDuep0YkX-HOjYHSJzdyQzHD40",
+          "fileName": "IMG_6787.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1hSKuNGr9zCO9qkUb8qPZyOBy9B7eK6Gr",
+          "fileName": "IMG_6784.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1xbNF_dx9jPN4zp64XOOzOJqnODKIBmjp",
+          "fileName": "IMG_6783.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "15hYxWUs-bcZW7uau7sgDwSBlvpsL_3wk",
+          "fileName": "IMG_6782.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1HiDgy8XpOrV9Ky4dw6Lqqos05rgkdqJr",
+          "fileName": "IMG_6775.HEIC",
+          "lat": 27.5476,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1Ap5PBYgNnc1BUXHiTfTVQUjN5Lv5P_RF",
+          "fileName": "IMG_6791.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "17ZwIUzaxjdJ95pPp_D20F9R_vU1kS2pd",
+          "fileName": "IMG_6788.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "15qGtAwSSxMjWtncWZuohB_nkRXkAblPq",
+          "fileName": "IMG_6778.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "16P5_D3ZP4vF90ctTov57wZlTVYqsjIjv",
+          "fileName": "IMG_6779.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1XD5Y9fBgbQ3LzZyUN2REEwfcKeeGcx61",
+          "fileName": "IMG_6780.HEIC",
+          "lat": 27.5475,
+          "lng": 85.3635,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1d9NhIIkIBKklq58FJ08zZUv60MMDqgjQ",
+          "fileName": "IMG_6790.HEIC",
+          "lat": 27.5536,
+          "lng": 85.3504,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
+        },
+        {
+          "id": "1oTOA60pK_VfsrdSxPF3AB-Y_5Qs7hdH4",
+          "fileName": "IMG_6789.HEIC",
+          "lat": 27.5536,
+          "lng": 85.3504,
+          "source": "google_drive",
+          "approved": true,
+          "addedAt": "2026-10-04T16:47:06.136Z"
         }
       ]
     },
@@ -68,7 +626,7 @@
           "lng": 100.5912,
           "source": "google_drive",
           "approved": true,
-          "addedAt": "2026-10-04T13:49:14.701Z"
+          "addedAt": "2026-10-04T16:47:06.135Z"
         },
         {
           "id": "1h1rwkRPIYjrIAu0ZZcSiAg8Ea6bN9kBc",
@@ -77,7 +635,7 @@
           "lng": 100.7874,
           "source": "google_drive",
           "approved": true,
-          "addedAt": "2026-10-04T13:49:14.701Z"
+          "addedAt": "2026-10-04T16:47:06.136Z"
         }
       ]
     }

@@ -65,39 +65,36 @@ async function importFromGoogleDrive() {
 
     const drive = google.drive({ version: 'v3', auth: oauth2Client });
 
-    const folderRes = await drive.files.list({
-      q: `name='Street Art Map' and mimeType='application/vnd.google-apps.folder' and trashed=false`,
-      spaces: 'drive',
-      pageSize: 1,
-      fields: 'files(id, name)',
-    });
+    // Search for ALL images, not just in one folder
+    const query = `(mimeType='image/jpeg' or mimeType='image/png' or mimeType='image/heif' or mimeType='image/heic' or mimeType='image/webp') and trashed=false`;
 
-    if (folderRes.data.files.length === 0) {
-      console.log('⚠️ Street Art Map folder not found in Drive');
-      return [];
-    }
+    let allPhotos = [];
+    let pageToken = null;
 
-    const folderId = folderRes.data.files[0].id;
-    console.log(`✅ Found folder: ${folderRes.data.files[0].name}`);
+    do {
+      const filesRes = await drive.files.list({
+        q: query,
+        spaces: 'drive',
+        pageSize: 100,
+        fields: 'files(id, name, webContentLink, createdTime, imageMediaMetadata)',
+        pageToken: pageToken,
+      });
 
-    const filesRes = await drive.files.list({
-      q: `'${folderId}' in parents and (mimeType='image/jpeg' or mimeType='image/png' or mimeType='image/heif' or mimeType='image/heic' or mimeType='image/webp') and trashed=false`,
-      spaces: 'drive',
-      pageSize: 100,
-      fields: 'files(id, name, webContentLink, createdTime, imageMediaMetadata)',
-    });
+      const batchPhotos = (filesRes.data.files || []).map(file => ({
+        id: file.id,
+        name: file.name,
+        source: 'google_drive',
+        coordinates: extractCoordinates(file.imageMediaMetadata),
+        createdTime: file.createdTime,
+        thumbnail: file.webContentLink ? file.webContentLink.replace('&export=download', '') : `https://drive.google.com/thumbnail?id=${file.id}`
+      }));
 
-    const photos = filesRes.data.files.map(file => ({
-      id: file.id,
-      name: file.name,
-      source: 'google_drive',
-      coordinates: extractCoordinates(file.imageMediaMetadata),
-      createdTime: file.createdTime,
-      thumbnail: `https://lh3.googleusercontent.com/d/${file.id}=w200`
-    }));
+      allPhotos = allPhotos.concat(batchPhotos);
+      pageToken = filesRes.data.nextPageToken;
+    } while (pageToken);
 
-    console.log(`✅ Found ${photos.length} photos in Drive`);
-    return photos;
+    console.log(`✅ Found ${allPhotos.length} photos in Drive`);
+    return allPhotos;
 
   } catch (err) {
     console.error('❌ Error scanning Drive:', err.message);
