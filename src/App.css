@@ -17,6 +17,72 @@
   height: 100%;
 }
 
+/* Contacts */
+.contacts-card {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  padding: 12px 14px;
+  min-width: 190px;
+}
+
+.contacts-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.contacts-subtitle {
+  font-size: 12px;
+  color: #777;
+  margin: 2px 0 8px;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 4px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #222;
+  font-size: 13px;
+}
+
+.contacts-link:hover {
+  background: #f2f2f2;
+}
+
+.contacts-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.contacts-label {
+  font-weight: 500;
+}
+
+.contacts-handle {
+  margin-left: auto;
+  color: #777;
+}
+
+@media (max-width: 480px) {
+  .contacts-card {
+    top: auto;
+    bottom: 24px;
+    right: 8px;
+    left: 8px;
+    min-width: 0;
+  }
+}
+
 /* Auth Panel */
 .auth-panel {
   position: absolute;

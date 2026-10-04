@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Map from './components/Map';
+import Contacts from './components/Contacts';
 import artworksData from './data/artworks.json';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className="app">
       <div className="map-container">
         <Map cities={cities} />
+        <Contacts />
       </div>
     </div>
   );
